@@ -5,9 +5,6 @@
 #     "torch>=2.10.0",
 #     "kernels",
 # ]
-#
-# [tool.uv.sources]
-# rust_torch_exts = { path = "../target/wheels/rust_torch_exts-0.1.0-cp311-cp311-linux_x86_64.whl" }
 # ///
 import torch
 import kernels
