@@ -1,0 +1,11 @@
+[package]
+name = "rust_torch_exts"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cuda_std = { git = "https://github.com/Rust-GPU/rust-cuda.git" }
+kawaii = { git = "https://github.com/drbh/kawaii.git" }
+
+[lib]
+crate-type = ["cdylib", "rlib"]
